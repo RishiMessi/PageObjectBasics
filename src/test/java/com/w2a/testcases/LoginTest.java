@@ -11,6 +11,7 @@ import com.w2a.utilities.Utilities;
 
 public class LoginTest extends BaseTest{
 
+	//Using EGit plugin
 	@Test(dataProviderClass=Utilities.class,dataProvider="dp")
 	public void loginTest(Hashtable<String,String> data) {
 		
